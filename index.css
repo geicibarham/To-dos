@@ -76,3 +76,12 @@ li:hover{
 margin-top: 20px;
 color:purple;
 }
+
+@media screen and (max-width: 600px) {
+  #container{
+   width: 80%;
+  }
+  #input{
+    width: 80%;
+  }
+  }
