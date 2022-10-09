@@ -1,0 +1,78 @@
+
+#container{
+ display: flex;
+ justify-content: center;
+ /* margin-top: 30px 30px 30px 30px; */
+flex-wrap: nowrap;
+flex-direction: column;
+align-items: center;
+background-color: #dce76d;
+background-color: #229da4;
+width: 50%;
+border-radius: 30px;
+margin-top: 30px;
+height:60%;
+
+}
+ol{
+    color:white;
+    font-weight: bold;
+}
+#outer__container{
+    background:linear-gradient(0deg, rgba(31, 30, 30, 0.54), rgba(141, 134, 138, 0.69)), url('./iStock-664975134.jpg');
+    min-height: 100vh;
+    background-size: cover;
+    background-position: 80%;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center;
+
+}
+#button{
+    width: 30%;
+    margin-left: 10px;
+    border:solid purple;
+    margin-top: 30px;
+    background: linear-gradient(-225deg, #FF3CAC 0%, #562B7C 52%, #2B86C5 100%) !important;
+}
+
+#input{
+
+
+    margin-left: 10px;
+    border:solid hotpink;
+    border-radius: 5px;
+    width: 50%;
+}
+h1{
+    color:purple
+}
+#input:focus{
+    outline: none !important;
+    border:solid purple;
+    box-shadow: 0 0 10px #719ECE;
+
+}
+
+.strike{
+    text-decoration: line-through;
+    color:red;
+}
+
+li:hover{
+    cursor: pointer;
+}
+
+#date{
+    border:solid purple;
+    border-radius: 5px;
+    margin-top: 13px;
+    width: 30%;
+    color:#2B86C5;
+}
+
+#date-select{
+margin-top: 20px;
+color:purple;
+}
